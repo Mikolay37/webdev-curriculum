@@ -1,0 +1,10 @@
+files:
+  - source: de-DE/*.*
+    translation: /%locale%/%original_file_name%
+  - source: es-ES/*.manifest
+    ignore:
+      - '*[23344].manifest'
+    translation: /%locale%/%original_file_name%
+    languages_mapping:
+      locale:
+        uk: '123'
